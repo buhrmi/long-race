@@ -8,6 +8,14 @@
 
 Similar to [Promise.race](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/race), but will not reject as long as there is a chance that at least `numWinners` will sucessfully resolve.
 
+## Usage
+
+```
+npm install --save long-race
+```
+
+Then just `require('long-race')` to augment the global `Promise` object with the `longRace()` method.
+
 ## Example
 
 The following code
