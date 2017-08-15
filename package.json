@@ -1,0 +1,26 @@
+{
+  "name": "long-race",
+  "version": "0.0.1",
+  "description": "A Promise.longRace() implementation",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buhrmi/long-race.git"
+  },
+  "keywords": [
+    "promise",
+    "race"
+  ],
+  "author": "Stefan Buhrmester <buhrmi@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/buhrmi/long-race/issues"
+  },
+  "homepage": "https://github.com/buhrmi/long-race#readme"
+}
